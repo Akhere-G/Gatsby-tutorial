@@ -1,0 +1,13 @@
+.page {
+  background: green;
+}
+
+.page h1{
+  color: purple;
+
+}
+
+.text{
+  text-transform: lowercase;
+}
+

@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+
+.navbar{
+  background-color: #515355;
+  padding: 20px;
+  font-size: medium;
+}
+.navbar > ul{
+  display: flex;
+  flex: 1;
+  justify-content: space-evenly;
+}
+
+.navbar > ul > li {
+  list-style: none;
+}
+
+a{
+  color: white;
+  text-decoration: none; 
+}
+
+li {
+  transition: transform 100ms ease-in;
+}
+
+li:hover{
+  transform: scale(1.07);
+  color: #ddd;
+
+}
+
+
+
